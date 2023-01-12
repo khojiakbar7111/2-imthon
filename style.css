@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    margin: 0 auto;
+}
+.continer{
+    max-width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-image: url(./images/pattern.png),url(./images/mockup.png), url(./images/BG\ \(2\).png);
+    background-color: azure;
+    border-radius: 0px 0px 100px;
+    
+
+   
+}
+.header__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+}
+.header__list{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 0;
+}
+.header__link{
+    display: inline-block;
+    padding: 16px 16px 14px;
+    line-height: 24px;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    color: white
+    
+   
+}
+body{
+    background-color: bisque;
+}
+.header__link:hover{
+    border-bottom: 2px solid #000;
+}
+.header__link:active{
+    border-bottom: 2px solid #191919;
+    background-color: #191919;
+    color:black;
+}
+.header__sublist{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 4px 24px rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+
+.sublink{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    width: 100%;
+}
+.sublink:hover{
+    background-color: #00bafc;
+    color: #fff;
+}
+.header__item:nth-child(2):hover .header__sublist{
+    visibility: visible;
+}
+.heder__align{
+    width: 500px;
+    height: 201px;
+    margin-left: 90px;
+    margin-top: 101px;
+    color: white;
+}
+.heder__text{
+    font-size: 8px;
+    width: 243px;
+    
+}
+.btn{
+    width: 100px;
+    height: 34px;
+    border-radius: 40px;
+    margin-top: 8px;
+}
+.heder___{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.heder__logo{
+    display: flex;
+}
+.heder__des{
+    padding-top: 10px;
+    padding-left: 12px;
+    display: flex;
+    margin-top: 10px;
+}
+.heder__malenki{
+    padding-left: 12px;
+    font-size: 13px;
+    padding-top: 6px;
+}
+.header__vakl{
+    display: flex;
+    column-gap: 30px;
+}
+.liink{
+  display: inline-block;
+    padding: 12px 12px 12px;
+    line-height: 24px;
+    border-bottom: 2px solid transparent;
+    font-size: 10px;
+    color: white;
+}
+.section_text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+    
+
+}
+.section_rasm{
+    display: flex;
+  justify-content: center;
+  padding-top: 78px;
+
+}
+.section_text1{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 13px;
+}
+.section__wrapper{
+    width: 140px;
+   margin-right: 200px;
+   
+}
+.sectio__full{
+   margin-top: 21px;
+   font-size: 19px;
+}
+.section__full1{
+    margin-top: 21px;
+    font-size: 14px;
+}
+.section__wrapper1{
+    width: 140px;
+    
+}
+.section__wrapper2{
+    width: 140px;
+    margin-left: 200px;
+}
+.nav_rasm{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.navi{
+    margin-left: 100px;
+    width: 508px;
+    height: 837px;
+    
+    background-image: url(./images/Group\ 8.png);
+}
+.nav_wrapper{
+    margin-left: 200px;
+    margin-top: 200px;
+
+}
+.navi_katta{
+    display: flex;
+    margin-top: 70px;
+    
+   
+}
+
+/*.rasm{
+    width: 20px;
+    height: 29px;
+}
+.nav__logo{
+    margin-top: 200px;
+    margin-left: 200px;
+}*/
+.navigi{
+    padding-left: 12px;
+}
+.navi_tori{
+    padding-left: 12px;
+    font-size: 21px;
+}
+.navi_tor{
+    padding-top: 10px;
+    padding-left: 12px;
+    width: 400px;
+}
+.navi_katta1{
+    display: flex;
+    width: 500px;
+    height: 160px;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px rgba(69, 88, 157, 0.07);
+    margin-top: 75px;
+}
+.nav_rasm1{
+    display: flex;
+   
+}
+.navigi2{
+    padding-top: 20px;
+    padding-left: 12px;
+}
+.navi_tori1{
+    padding-left: 12px;
+    font-size: 21px;
+}
+.navi_tor3{
+    padding-top: 10px;
+    padding-left: 12px;
+    width: 400px;
+}
+.rasm1{
+    margin-left: 12px;
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+.navi1{
+    font-size: 10px;
+}
+.navi2{
+    width: 300px;
+    font-size: 32px;top: 10px;
+
+}
+
+.logo_heder{
+    margin-top: 166px;
+    text-align: center;
+}
+.logo_for{
+    margin-top: 12px;
+    font-size: 36px;
+}
+.logo_text{
+    font-size: 14px;
+}
+.logo_ful{
+    margin-left: 100px;
+   display: flex;
+   width: 350px;
+}
+.logo_rasm{
+    margin-top: 19px;
+    margin-left: 26px;
+}
+.logo_wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+}
+.logo_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 123px;
+}
+.logo_us{
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #0F2137;
+}
+.logo_toron{
+    margin-top: 280px;
+    margin-left: 80px;
+    width: 400px;
+    height: 460px;
+}
+.logo_1{
+    font-size: 14px;
+}
+.logo_2{
+    font-size: 48px;
+}
+.logo_3{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.btn2{
+    width: 100px;
+    height: 26px;
+    margin-top: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #1F3E76;;
+}
+.logo_keyin{
+    display: flex;
+    justify-content: center;
+}
+.razm{
+    margin-top: 200px;
+    margin-left: 80px;
+    width: 794px;
+    height: 544px;
+}
+.ful_rasmi{
+    background-image: url(./images/BG\ \(4\).png);
+}
+.full_kom{
+    padding-top: 90px;
+    text-align: center;
+}
+.full_1{
+    font-size: 14px;
+}
+.full_2{
+    font-size: 36px;
+}
+.full_section{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1420px;
+    height: 570px;
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%), url(./images/pattern\ \(2\).png);
+    color: white;
+    
+}
+.full_katalog{
+    width: 240px;
+    height: 260px;
+    margin-left: 100px;
+    color: white;
+}
+.full4{
+    padding-top: 25px;
+    font-size: 22px;
+    color: white;
+}
+.full5{
+    padding-top: 15px;
+    font-size: 15px;
+    color: white;
+}
+.full__eng{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+}
+.hoji_1{
+    text-align: center;
+    margin-top: 106px;
+}
+.hoji__{
+    font-size: 36px;
+}
+.hoji_mo{
+
+    display: flex;
+    margin-top: 50px;
+}
+.hojiaka{
+    display: flex;
+    padding-top: 9px;
+    margin-left: 10px;
+}
+.hoji_omi{
+    margin-left: 47px;
+    width: 422px;
+    height: 380px;
+    background-color:
+     aliceblue;
+     padding-left: 23px;
+}
+.hojii{
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+}
+.hoji1{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #343D48;
+
+}
+.hojirasm{
+    margin-top: 35px;
+}
+.hoji_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.hoji_omi1{
+    margin-left: 47px;
+    width: 422px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 47px rgba(38, 78, 118, 0.08);
+     padding-left: 23px;
+    }
+.hoji_omi2{
+    margin-left: 47px;
+    width: 422px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 47px rgba(38, 78, 118, 0.08);
+     padding-left: 23px;
+    }
+.hojiboy{
+    margin-top: 100px;
+    width:1386px;
+    height: 950px;
+   margin: 0 auto;
+    background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
+border-radius: 250px 0px 0px 0px;
+
+}
+.hojiaka__2{
+    margin-top: 100px;
+    padding-left: 62px;
+}
+.hojibola{
+    width: 162px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+}
+.hojibola1{
+    width: 510px;
+    height: 154px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+
+}   
+.hojibola2{
+    margin-top: 40px;
+    width: 454px;
+    height: 166px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+}
+.btn3{
+    width: 100px;
+    height: 29px;
+    border-radius: 50px;
+    background-color: #1F3E76;
+    color: #fff;
+   margin-top: 24px;
+}
+.gul_rasm{
+    background-image: url(./images/BG\ \(5\).png), url(./images/pattern\ \(2\).png);
+    width: 1520px;
+    height: 1300px;
+    margin: 0 auto;
+   padding-top: 100px;
+}
+.gull_1{
+    font-size: 10px;
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+}
+.gul_2{
+    font-size: 26px;
+    color: #fff;
+    padding-top: 2px;
+    text-align: center;
+}
+.gull_wrap{
+    width: 510px;
+    height: 880px;
+    background: #2F5392;
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 70px;
+    padding-left: 40px;
+    margin-left: 167px;
+    margin-top: 80px;
+}
+.gull__logo{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+
+}
+.gull__logo1{
+    width: 197px;
+    height: 28px;
+    font-size: 16px;
+}
+.gull2{
+    display: flex;
+    margin-top: 60px;
+}
+.gull__axi{
+    padding-left: 12px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn4{
+    margin-left: 100px;
+    width: 170px;
+    height: 55px;
+    border-radius: 50px;
+    margin-top: 83px;
+}
+.gull1{
+    display: flex;
+}
+.gull_wrap1{
+    width: 510px;
+    height: 880px;
+    background: #fff;
+    border-radius: 10px;
+    
+    padding-top: 70px;
+    padding-left: 40px;
+    margin-left: 167px;
+    margin-top: 80px;
+}
+.btn5{
+    margin-left: 100px;
+    width: 170px;
+    height: 55px;
+    border-radius: 50px;
+    margin-top: 83px;
+    background-color:#1F3E76;
+    color: white;
+}
+.gulli{
+    display: flex;
+}
+.gul_ro{
+    margin-left: 75px;
+}
+.foiz{
+    color: goldenrod;
+    padding-top: 8px;
+}
+.way{
+    text-align: center;
+    margin-top: 127px;
+}
+.way_text{
+    font-weight: 700;
+font-size: 14px;
+line-height: 40px;
+}
+.way_text1{
+    font-weight: 700;
+font-size: 36px;
+line-height: 55px;
+}
+.way_rasm{
+    display: flex;
+    justify-content: center;
+  margin-top: 30px;
+  font-size: 24px;
+   
+}
+.way_gol{
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.way_tor{
+    font-size: 16px;
+}
+.hr{
+    width: 500px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 300px;
+    padding-top: 1px;
+    margin-top: 17px;
+    margin: 0 auto;
+}
+
+
+.dor__logo{
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 320px;
+    
+}
+.dor_text{
+    font-size: 20px;
+
+}
+.dor_text1{
+    padding-top: 23px;
+}
+.dor{
+    display: flex;
+   justify-content: center;
+}
+
+
+
+
+
